@@ -1,0 +1,879 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <!-- 
+    - primary meta tags
+  -->
+  <title>Keofi</title>
+  <meta name="title" content="Keofi - Great coffee good vibes">
+  <meta name="description" content="This is a coffee shop html template made by codewithsadee">
+
+  <!-- 
+    - favicon
+  -->
+  <link rel="shortcut icon" href="./favicon.svg" type="image/svg+xml">
+
+  <!-- 
+    - custom css link
+  -->
+  <link rel="stylesheet" href="./assets/css/style.css">
+
+  <!-- 
+    - google font link
+  -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Merienda&family=Oswald:wght@300;400;500&family=Roboto:wght@400;500;700&display=swap"
+    rel="stylesheet">
+
+  <!-- 
+    - preload images
+  -->
+  <link rel="preload" as="image" href="./assets/images/hero-banner.jpg">
+
+</head>
+
+<body>
+
+  <!-- 
+    - #HEADER
+  -->
+
+  <header class="header">
+
+    <div class="header-top">
+      <div class="container">
+
+        <p class="header-top-text">
+          <ion-icon name="time-outline" aria-hidden="true"></ion-icon>
+          <span class="span">HORÁRIO DE FUNCIONAMENTO:</span> 08:00 Am - 09:00 Pm
+        </p>
+
+        <ul class="social-list">
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-facebook"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-twitter"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-instagram"></ion-icon>
+            </a>
+          </li>
+
+          <li>
+            <a href="#" class="social-link">
+              <ion-icon name="logo-youtube"></ion-icon>
+            </a>
+          </li>
+
+        </ul>
+
+        <p class="header-top-text">
+          <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+          <span class="span">LOCALIZAÇÃO :</span> 55 Main Street, New York
+        </p>
+
+      </div>
+    </div>
+
+    <div class="header-bottom" data-header>
+      <div class="container">
+
+        <a href="#" class="logo">
+          <img src="./assets/images/logo.svg" width="216" height="80" alt="keofi home" class="w-100">
+        </a>
+
+        <nav class="navbar" data-navbar>
+
+          <ul class="navbar-list">
+
+            <li>
+              <a href="#home" class="navbar-link" data-nav-link>Home</a>
+            </li>
+
+            <li>
+              <a href="#about" class="navbar-link" data-nav-link>Sobre</a>
+            </li>
+
+            <li>
+              <a href="#menu" class="navbar-link" data-nav-link>Menu</a>
+            </li>
+
+            <li>
+              <a href="#blog" class="navbar-link" data-nav-link>Blog</a>
+            </li>
+
+            <li>
+              <a href="#" class="navbar-link" data-nav-link>Contato</a>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary">Reserve a mesa</a>
+
+        </nav>
+
+        <button class="nav-open-btn" aria-label="open menu" data-nav-toggler>
+          <span class="span"></span>
+          <span class="span"></span>
+        </button>
+
+      </div>
+    </div>
+
+  </header>
+
+
+
+
+
+  <main>
+    <article>
+
+      <!-- 
+        - #HERO
+      -->
+
+      <section class="section hero has-bg-image" id="home" aria-labelledby="hero-label"
+        style="background-image: url('./assets/images/hero-banner.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle has-before reveal-left" data-reveal>Bem vindo ao keofi</p>
+
+          <h1 class="h1 hero-title reveal-left" id="hero-label" data-reveal>Ótimo café, boas vibrações</h1>
+
+          <div class="btn-group reveal-left" data-reveal>
+            <a href="#" class="btn btn-primary">
+              <span class="span">Explore mais</span>
+
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+            <a href="#" class="btn btn-secondary">
+              <span class="span">Obter entrega</span>
+
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </a>
+          </div>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #ABOUT
+      -->
+
+      <section class="section about" id="about" aria-labelledby="about-label">
+        <div class="container">
+
+          <div class="about-content">
+
+            <p class="section-subtitle reveal-left" id="about-label" data-reveal>SOBRE NÓS</p>
+
+            <h2 class="h2 section-title reveal-left" data-reveal>Centro fornecedor de café orgânico e fresco</h2>
+
+            <p class="section-text reveal-left" data-reveal>
+              Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium, totam rem
+              aperiam eaque ipsa quae abillo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.
+              Nemo enim ipsluptatem quia voluptas sit aspernatur aut odit aut fugit sed quia consequuntur magni dolores
+              eos qui ratione
+            </p>
+
+            <div class="about-card reveal-left" data-reveal>
+              <figure class="card-banner img-holder" style="--width: 95; --height: 95;">
+                <img src="./assets/images/about-img.png" width="95" height="95" loading="lazy" alt="john doe"
+                  class="img-cover">
+              </figure>
+
+              <p class="card-text">
+                A busca pelo café perfeito envolve dedicação em todas as etapas, do cultivo sustentável à torra artesanal, criando uma experiência única que conecta pessoas e valoriza tradições
+              </p>
+            </div>
+
+          </div>
+
+          <figure class="about-banner reveal-right" data-reveal>
+            <img src="./assets/images/about-banner.png" width="686" height="544" loading="lazy" alt="about banner"
+              class="w-100">
+          </figure>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #SERVICE
+      -->
+
+      <section class="section service" aria-label="service">
+        <div class="container">
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="service-card" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-1.jpg" width="450" height="350" loading="lazy" alt="Restaurant Menu"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content has-before">
+                  <ion-icon name="restaurant-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Cardápio do restaurante</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="service-card" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-2.jpg" width="450" height="350" loading="lazy" alt="Coffee Menu"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content has-before">
+                  <ion-icon name="cafe-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Cardápio do café</h3>
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="service-card" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/service-3.jpg" width="450" height="350" loading="lazy" alt="Food Services"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content has-before">
+                  <ion-icon name="wine-outline" aria-hidden="true"></ion-icon>
+
+                  <h3 class="h3 card-title">Serviços</h3>
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #MENU
+      -->
+
+      <section class="section menu has-bg-image" id="menu" aria-labelledby="menu-label"
+        style="background-image: url('./assets/images/menu-bg.jpg')">
+        <div class="container">
+
+          <p class="section-subtitle text-center" data-reveal>ESCOLHA O MELHOR CAFÉ</p>
+
+          <h2 class="h2 section-title text-center" id="menu-label" data-reveal>
+            Menu de Café Popular Kaffe
+          </h2>
+
+          <ul class="grid-list" style="background-image: url('./assets/images/menu-bg-logo.png')">
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-1.jpg" width="200" height="200" loading="lazy" alt="Americano Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café Americano</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="4.9">R$4.90</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-2.jpg" width="200" height="200" loading="lazy" alt="Espresso Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café expresso</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="4.9">R$4.90</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-3.jpg" width="200" height="200" loading="lazy"
+                    alt="Barista Pouring Syrup" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Barista Pouring Syrup</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="3.5">R$3.50</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-4.jpg" width="200" height="200" loading="lazy" alt="Cold - Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café frio</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="6.0">R$6.00</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-5.jpg" width="200" height="200" loading="lazy" alt="Cappuccino Arabica"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Capuccino Arábica</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="2.8">R$2.80</data>
+
+                </div>
+
+              </div>
+            </li>
+
+            <li>
+              <div class="menu-card" data-reveal>
+
+                <figure class="card-banner img-holder" style="--width: 200; --height: 200;">
+                  <img src="./assets/images/menu-6.jpg" width="200" height="200" loading="lazy" alt="Milk Cream Coffee"
+                    class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Café com Creme de Leite</h3>
+
+                  <p class="card-text">
+                    2/3 de café expresso, 1/3 de leite condensado
+                  </p>
+
+                  <data class="card-price has-before" value="7.5">R$7.50</data>
+
+                </div>
+
+              </div>
+            </li>
+
+          </ul>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #FEATURE
+      -->
+
+      <section class="section feature" aria-labelledby="feature-label">
+        <div class="container">
+
+          <figure class="feature-banner img-holder reveal-left" style="--width: 560; --height: 700;" data-reveal>
+            <img src="./assets/images/feature-banner.jpg" width="560" height="700" loading="lazy" alt="feature banner"
+              class="img-cover">
+          </figure>
+
+          <div class="feature-content">
+
+            <p class="section-subtitle reveal-right" data-reveal>PORQUE ESCOLHER-NOS            </p>
+
+            <h2 class="h2 section-title reveal-right" id="feature-label" data-reveal>Novo café londrino fundado para teste extraordinário
+            </h2>
+
+            <p class="section-text reveal-right" data-reveal>
+              Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque laudantium, totam rem
+              aperiam eaque ipsa quae abillo inventore veritatis
+            </p>
+
+            <ul class="feature-list">
+
+              <li>
+                <div class="feature-card reveal-right" data-reveal>
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-1.png" width="70" height="70" loading="lazy"
+                      alt="feature icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Grãos de café naturais</h3>
+
+                    <p class="card-text">
+                      Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+              <li>
+                <div class="feature-card reveal-right" data-reveal>
+
+                  <div class="card-icon">
+                    <img src="./assets/images/feature-icon-2.png" width="70" height="70" loading="lazy"
+                      alt="feature icon">
+                  </div>
+
+                  <div>
+                    <h3 class="h3 card-title">Certificação 100% ISO</h3>
+
+                    <p class="card-text">
+                      Sed ut perspiciatis unde omnis iste natus error voluptate accusantium doloremque
+                    </p>
+                  </div>
+
+                </div>
+              </li>
+
+            </ul>
+
+            <a href="#" class="btn btn-primary reveal-right" data-reveal>
+              <span class="span">Explore mais</span>
+
+              <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+            </a>
+
+          </div>
+
+          <img src="./assets/images/feature-abs-1.png" width="318" height="290" loading="lazy" alt=""
+            class="abs-img abs-img-1">
+
+          <img src="./assets/images/feature-abs-2.png" width="262" height="356" loading="lazy" alt=""
+            class="abs-img abs-img-2">
+
+          <img src="./assets/images/feature-abs-3.png" width="410" height="212" loading="lazy" alt=""
+            class="abs-img abs-img-3">
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #BLOG
+      -->
+
+      <section class="section blog" id="blog" aria-labelledby="blog-label">
+        <div class="container">
+
+          <p class="section-subtitle text-center" data-reveal>OBTENHA TODAS AS ATUALIZAÇÕES</p>
+
+          <h2 class="h2 section-title text-center" id="blog-label" data-reveal>
+            Leia alguns blogs e notícias mais recentes
+          </h2>
+
+          <ul class="grid-list">
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-1.jpg" width="670" height="450" loading="lazy"
+                    alt="SWR React Hooks With Next Increm Ental Static Regeneration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Sustentabilidade no Café: Inovações que Transformam o Cultivo e a Produção</h3>
+
+                  <div class="card-meta">
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-09-25">25 de maio de 2024</time>
+                    </div>
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">(7)</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-2.jpg" width="670" height="450" loading="lazy"
+                    alt="Decisions For Building Flexible Components DevTools Browser" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">Especialistas Revelam Segredos para um Café Perfeito: Da Fazenda à Xícara</h3>
+
+                  <div class="card-meta">
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-09-25">25 de maio de 2024</time>
+                    </div>
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">(6)</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+            <li>
+              <a href="#" class="blog-card has-before" data-reveal>
+
+                <figure class="card-banner">
+                  <img src="./assets/images/blog-3.jpg" width="670" height="450" loading="lazy"
+                    alt="SWR React Hooks With Next Increm Ental Static Regeneration" class="img-cover">
+                </figure>
+
+                <div class="card-content">
+
+                  <h3 class="h3 card-title">A Ascensão do Café Artesanal: Como Pequenos Produtores Estão Revolucionando o Mercado</h3>
+
+                  <div class="card-meta">
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="calendar-outline" aria-hidden="true"></ion-icon>
+
+                      <time class="card-meta-text" datetime="2022-09-25">25 de maio de 2024</time>
+                    </div>
+
+                    <div class="meta-wrapper">
+                      <ion-icon name="chatbubbles-outline" aria-hidden="true"></ion-icon>
+
+                      <p class="card-meta-text">(7)</p>
+                    </div>
+
+                  </div>
+
+                </div>
+
+              </a>
+            </li>
+
+          </ul>
+
+          <a href="#" class="btn btn-primary" data-reveal>
+            <span class="span">Veja mais</span>
+
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+
+
+
+
+      <!-- 
+        - #CTA
+      -->
+
+      <section class="section cta has-bg-image" aria-labelledby="cta-label"
+        style="background-image: url('./assets/images/cta-bg.jpg')">
+        <div class="container">
+
+          <div>
+            <p class="section-subtitle reveal-left" data-reveal>PRECISA DE UMA MESA NA CAFETERIA</p>
+
+            <h2 class="h2 section-title reveal-left" id="cta-label" data-reveal>Mesa de reserva para você e familiares
+            </h2>
+          </div>
+
+          <a href="#" class="btn btn-primary reveal-right" data-reveal>
+            <span class="span">Reserva</span>
+
+            <ion-icon name="chevron-forward" aria-hidden="true"></ion-icon>
+          </a>
+
+        </div>
+      </section>
+
+    </article>
+  </main>
+
+
+
+
+
+  <!-- 
+    - #FOOTER
+  -->
+
+  <footer class="footer">
+    <div class="container">
+
+      <div class="footer-top section" data-reveal>
+
+        <div class="footer-brand">
+          <a href="#" class="logo">
+            <img src="./assets/images/logo.svg" width="216" height="80" class="w-100" alt="Keofi home">
+          </a>
+        </div>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Horário</p>
+          </li>
+
+          <li class="footer-list-item">
+            <p>Domingo - quinta-feira</p>
+
+            <span class="span">08:00 am - 09:00pm</span>
+          </li>
+
+          <li class="footer-list-item">
+            <p>Sexta</p>
+
+            <span class="span">03:00 pm - 09:00pm</span>
+          </li>
+
+          <li>
+            <strong class="strong"></strong>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Contate-no</p>
+          </li>
+
+          <li>
+            <div class="wrapper">
+              <ion-icon name="location-outline" aria-hidden="true"></ion-icon>
+
+              <div>
+                <span class="span">Localização :</span>
+
+                <p>São Paulo</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="wrapper">
+              <ion-icon name="mail-unread-outline" aria-hidden="true"></ion-icon>
+
+              <div>
+                <span class="span">Endereço de email :
+                  :</span>
+
+                <p>reisanselmo7@gmail.com</p>
+              </div>
+            </div>
+          </li>
+
+          <li>
+            <div class="wrapper">
+              <ion-icon name="call-outline" aria-hidden="true"></ion-icon>
+
+              <div>
+                <span class="span">Número de telefone :
+                </span>
+
+                <p>11 947476229</p>
+              </div>
+            </div>
+          </li>
+
+        </ul>
+
+        <ul class="footer-list">
+
+          <li>
+            <p class="footer-list-title">Galeria</p>
+          </li>
+
+          <li>
+            <ul class="grid-list">
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-1.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-2.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-3.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-4.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-5.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+              <li>
+                <div class="grid-item">
+                  <img src="./assets/images/gallery-1.jpg" width="80" height="80" loading="lazy" alt="Gallery"
+                    class="w-100">
+                </div>
+              </li>
+
+            </ul>
+          </li>
+
+        </ul>
+
+      </div>
+
+      <div class="footer-bottom">
+
+        <p class="copyright">
+          Copyright © 2024 codewithsadee. GustavoLimaReis.
+        </p>
+
+      </div>
+
+    </div>
+  </footer>
+
+
+
+
+
+  <!-- 
+    - custom js link
+  -->
+  <script src="./assets/js/script.js"></script>
+
+  <!-- 
+    - ionicon link
+  -->
+  <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+  <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+
+</body>
+
+</html>
